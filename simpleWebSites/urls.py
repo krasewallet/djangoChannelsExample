@@ -18,6 +18,8 @@ from django.urls import path
 from django.conf.urls import include 
 
 urlpatterns = [
-    path('chat/', include('websocketDemo.urls')),
     path('admin/', admin.site.urls),
+    path('chat/', include('websocketDemo.urls')),
+    path('api/',include('api_auth.urls',namespace='api_auth')),
+    path('api-auth/', include('rest_framework.urls'))
 ]
