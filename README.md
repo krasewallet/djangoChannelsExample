@@ -1,5 +1,5 @@
 # djangoChannelsExample
-1. Rest Framework
+## Rest Framework
   1. pip install djangorestframework
   2. config project urls.py and app urls.py
   3. edit app views.py
